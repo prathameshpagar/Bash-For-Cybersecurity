@@ -129,7 +129,7 @@ ls -l mydirectory
 ### Assigning and Accessing Variables 
 
 ```shell
-book="Black Hat Bash"
+book="Pride and Prejudice"
 echo "This book's name is ${book}"
 ```
 
@@ -147,7 +147,7 @@ echo "$(root_directory)"
 You can unassign assigned variables using the unset command, as shown here 
 
 ```shell
-book="Black hat Bash"
+book="Pride and Prejudice"
 unset book
 echo "${book}"
 ```
@@ -162,10 +162,10 @@ Global variables are those available to the entire program but variables in bash
 ```shell 
 #!/bin/bash 
 
-PUBLISHER="No Starch Press"
+PUBLISHER="Jane Austen"
 print_name() {
 local name
-name="Black Hat Bash"
+name="Pride and Prejudice"
 echo "${name} by ${PUBLISHER}"
 }
 print_name
@@ -365,8 +365,8 @@ Goodbye!
 
 ```shell
 cat <<EOF
-Black Hat Bash 
-by no starch Press
+Hello World  
+Goodbye
 EOF
 ```
 
