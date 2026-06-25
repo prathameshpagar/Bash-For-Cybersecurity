@@ -401,7 +401,7 @@ ping "${TARGET}"
 0 itself is script name and 1 will be first positional argument 
 
 
-- What if you wanted to access all arguments. You can do so using the variable $@. Also, using $#, you can get the total number of arguments passed
+- What if you wanted to access all arguments. You can do so using the variable $ @ Also, using $#, you can get the total number of arguments passed
 
 ```shell
 # # shows the number of arguments passed 
