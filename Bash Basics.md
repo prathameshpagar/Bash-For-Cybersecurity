@@ -467,7 +467,7 @@ Bash commands return status codes, which indicate whether the execution of the c
 - To see status codes in action, save the following script to a file named exit_codes.sh and run it.
 
 ```shell
-!#/bin/bash
+#!/bin/bash
 
 # Experimenting with status codes 
 
