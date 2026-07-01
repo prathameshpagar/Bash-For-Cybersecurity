@@ -190,7 +190,9 @@ Arithmetic operators allow you to perform mathematical operations on integers
 | %        | Modulo                     |
 | +=       | Incrementing by a constant |
 | -=       | Decrementing by a constant |
-you can perform these arithmetic operation in bash in few ways: using the let command, using the double parentheses syntax $((expression)), and usiung the expr command. Let's consider an example of each method 
+
+
+you can perform these arithmetic operation in bash in few ways: using the let command, using the double parentheses syntax $((expression)), and using the expr command. Let's consider an example of each method 
 
 - Here we perform a multiplication operation using the let command: 
 
